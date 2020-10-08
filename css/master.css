@@ -1,0 +1,129 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-p {
+    background-color: #4d148c;
+}
+
+a.navbar-brand {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+a.navbar-brand span:first-child {
+    color: #fff;
+    font-size: 40px;
+}
+
+a.nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.link-icon  span {
+    background-color: #671cb8;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+a.nav-link:hover {
+    color: #ff6600;
+}
+
+.nav-item .active > a.nav-link {
+    color: #ff6600;
+}
+
+.showcase {
+    height: 100vh;
+    background: url('../images/showcase.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.showcase h1, .showcase p, .showcase button {
+    position: relative;
+}
+
+.nav-item {
+    padding-left: 1rem;
+}
+
+button.navbar-toggler{
+    color: white;
+}
+
+/* a.navbar-brand span:first-child {
+    background-color: #ff6600;
+    padding: 0.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+a.navbar-brand span:last-child {
+    background-color: #fff;
+    padding: 0.5rem;
+    padding-left: 0.2rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+} */
+
+.showcase {
+    text-align: center;
+}
+
+.services-btn {
+    background-color: #ff6600;
+    color: white;
+}
+
+.services-items div:nth-child(even) {
+    background-color: #ff660060;
+    padding: 2rem;
+}
+
+.services-items div:nth-child(odd) {
+    background-color: #4d148c60;
+    padding: 2rem;
+}
+
+.offre div {
+    background-color: #ff660060;
+    padding: 1rem;
+}
+
+.offre div .tarif {
+    flex: 1;
+}
+
+tr:nth-child(even) {
+    background-color: #ff660060;
+}
+
+tr:nth-child(odd) {
+    background-color: #4d148c60;
+}
+
+th {
+    background-color: white;
+}
