@@ -43,7 +43,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: crimson;
+	color: #f9bf3a;
 }
 
 .cta {
@@ -51,7 +51,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid yellow;
+	border: 2px solid #f9bf3a;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
@@ -61,7 +61,7 @@ p {
 }
 .cta:hover {
 	color: black;
-	background-color: yellow;
+	background-color: #f9bf3a;
 }
 .brand  {
 	/* font-size: 3rem;
@@ -128,6 +128,9 @@ p {
 	padding: 20px;
 	display: block;
 }
+
+
+
 #header .nav-list ul a::after {
 	content: attr(data-after);
 	position: absolute;
@@ -145,8 +148,14 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: #f9bf3a;
 }
+
+.scrolling-active  .nav-list  a{
+
+	color: black;
+}
+
 #header .hamburger {
 	height: 60px;
 	width: 60px;
@@ -206,7 +215,7 @@ p {
 /* Hero Section */
 #hero {
 	background-image: url(./img/accueil.png);
-	
+	object-fit: fill;
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -254,7 +263,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color:yellow;
+	background-color:#f9bf3a;
 	animation: text_reveal_box 1s ease;
 	animation-delay: .5s;
 }
@@ -567,7 +576,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: yellow;
+		color: #f9bf3a;
 		font-weight: 500;
 	}
 }
@@ -712,10 +721,12 @@ table{
 	font-size:20px;
   }
 
-  .navbar-brand{
-   width: 20%;
-    
 
+
+@media only screen and (max-width: 600px) {
+
+	.brand {
+		width: 40%;
+	
+	 }
 }
-
-
