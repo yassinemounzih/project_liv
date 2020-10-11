@@ -218,6 +218,8 @@ p {
 	object-fit: fill;
 	background-size: cover;
 	background-position: top center;
+	background-repeat: no-repeat;
+		background-size: 100% 100%;
 	position: relative;
 	z-index: 1;
 }
@@ -727,6 +729,28 @@ table{
 
 	.brand {
 		width: 40%;
+		
 	
 	 }
+	 #hero {
+		background-image: url(./img/accueil.png);
+		object-fit: fill;
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+			background-size: 100% 100%;
+		position: relative;
+		z-index: 1;
+	}
+	#hero::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		opacity: .7;
+		z-index: -1;
+	}
 }
