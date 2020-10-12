@@ -148,7 +148,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: #f9bf3a;
+	color: #007bff;;;
 }
 
 .scrolling-active  .nav-list  a{
@@ -214,7 +214,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/accueil.png);
+	background-image: url(./img/accueil1.png);
 	object-fit: fill;
 	background-size: cover;
 	background-position: top center;
@@ -231,7 +231,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: .7;
+	opacity: .5;
 	z-index: -1;
 }
 #hero .hero {
@@ -308,12 +308,29 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(img/qui-somme-nous.png);
-	background-size: cover;
+	background-position: top center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+}
+#services .service-item.one {
+	
+	background-image: url(img/livraison-express.png);
+	
+}
+#services .service-item.tow {
+	
+	background-image: url(img/suivie.png);
+	
+}
+#services .service-item.three {
+	
+	background-image: url(img/moins-de-retour.png);
+	
 }
 #services .service-item::after {
 	content: '';
@@ -323,7 +340,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: .9;
+	opacity: .7;
 	z-index: -1;
 }
 #services .service-bottom .icon {
@@ -717,6 +734,13 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+
+
+
+
+
+	
+
 }
 table{
 	
@@ -733,12 +757,12 @@ table{
 	
 	 }
 	 #hero {
-		background-image: url(./img/accueil.png);
+		background-image: url(./img/accueil1.png);
 		object-fit: fill;
 		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;
-			background-size: 100% 100%;
+		background-size: 100% 100%;
 		position: relative;
 		z-index: 1;
 	}
